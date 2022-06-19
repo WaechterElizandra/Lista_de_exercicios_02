@@ -1,0 +1,5 @@
+custo_original =float(input('Informe o valor do carro'))
+custo_distribuidor =float((custo_original)*28/100)
+imposto =float((custo_original)*45/100)
+valor_final =float(custo_original+custo_distribuidor+imposto)
+print('Total a pagar',valor_final)

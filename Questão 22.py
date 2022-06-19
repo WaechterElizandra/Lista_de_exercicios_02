@@ -1,0 +1,7 @@
+numero =int(input('Digite um número entre 100 e 999'))
+centena = float(numero/100)
+dezena = float(numero/10)
+unidade = int(numero/1)
+print('Centena =',centena)
+print('Dezena =',dezena)
+print ('Unidade=',unidade)

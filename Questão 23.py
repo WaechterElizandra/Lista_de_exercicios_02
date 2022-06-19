@@ -1,0 +1,8 @@
+m1 =float(input('Informe a quantidade de Moedas de 1 centavo:'))
+m5 =float(input('Informe a quantidade de Moedas de 5 centavo:'))
+m10 =float(input('Informe a quantidade de Moedas de 10 centavo:'))
+m25 =float(input('Informe a quantidade de Moedas de 25 centavo:'))
+m50 =float(input('Informe a quantidade de Moedas de 50 centavo:'))
+m100 =float(input('Informe a quantidade de Moedas de 1 real:'))
+soma=((m1*0.01)+(m5*0.05)+(m10*0.10)+(m25*0.25)+(m50*0.50)+(m100*1.00))
+print('O total de dinheiro poupado foi RS',soma)

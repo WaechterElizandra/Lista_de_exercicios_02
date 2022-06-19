@@ -1,0 +1,9 @@
+aumento =float(0.15)
+desconto =float(0.08)
+salario =float(input('Digite o salário base'))
+aumento =salario+(salario*aumento)
+desconto =salario-(salario*desconto)
+salario_final =aumento+desconto
+print('Salário inicial=',salario)
+print('Salário com aumento=',aumento)
+print('Salário final=',salario_final)
